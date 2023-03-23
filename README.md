@@ -13,7 +13,7 @@ Raw data unit is collection event (monitoring, clean up, etc.). Information is a
 
 Objects are coded. Classification is reported in a separate meta data file. 
 
-### [Open Litter Map](https://openlittermap.com/) (OLM)
+### [OpenLitterMap](https://openlittermap.com/) (OLM)
 OpenLitterMap is a citizen science litter-mapping game that empowers anyone to map and share geographic data on litter, brands, and plastic pollution. 
 Data collected are open and downloadable for free and usable for any purpose. OpenLitterMap rewards users with cryptocurrency tokens Littercoin for doing the work of mapping and producing open data.
 
