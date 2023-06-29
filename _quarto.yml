@@ -1,0 +1,18 @@
+project:
+  title: "Marine Litter"
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+  preview:
+    port: 4200
+  pre-render: R/build-dataset.R
+
+format:
+  html:
+    theme: default
+    toc: true
+
+website:
+  sidebar:
+    style: "docked"

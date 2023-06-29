@@ -1,0 +1,35 @@
+---
+title: "Marine Litter Watch dataset - Exploration"
+format: 
+  html:
+    code-fold: true
+    df-print: paged
+    code-tools: true
+    warning: false
+    message: false
+editor: visual
+---
+
+```{r}
+#| label: load-packages
+
+library(tidyverse)
+library(readr)
+library(ggsci)
+library(sf)
+```
+
+```{r}
+#| label: load-data
+
+data_path <- here::here('data/clean-data.csv')
+data <- read_csv(data_path)
+```
+
+### Available data: 
+
+```{r}
+#| label: view-data
+
+data
+```
