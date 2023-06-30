@@ -10,6 +10,10 @@ format:
 editor: visual
 ---
 
+<!--- js dependencies -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script src="js/my-dataviz.js"></script>
+
 ```{r}
 #| label: load-packages
 
@@ -26,7 +30,7 @@ data_path <- here::here('data/clean-data.csv')
 data <- read_csv(data_path)
 ```
 
-### Available data: 
+### Available data:
 
 ```{r}
 #| label: view-data
